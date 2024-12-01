@@ -1,0 +1,14 @@
+.img {
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  width: 360px;
+  display: block;
+  height: 165px;
+  object-fit: cover;
+  transition: transform 0.3s ease;
+}
+
+.img:hover {
+  transform: scale(1.05);
+}
